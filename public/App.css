@@ -1,3 +1,84 @@
+@media screen and (max-width: 1000px) {
+  #root {
+    height: 60vh !important;
+  }
+  .name {
+    top: 20% !important;
+  }
+}
+body, h1, html {
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #191919;
+}
+h1 {
+  font-size: 40px;
+}
+a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #5ad8ff;
+}
 #root {
-  background-color: blueviolet;
+  background-color: #191919;
+  height: 90vh;
+}
+.navbar {
+  background: rgb(29 29 29 / .9);
+  position: fixed;
+  top: 15px;
+  left: 50px;
+  width: 40%;
+  border-radius: 100px;
+  padding: 1.5%;
+  display: flex;
+  justify-content: space-around;
+  color: #5ad8ff;
+  font-size: .9rem;
+  z-index: 10;
+}
+a:hover {
+  color: white;
+  border-bottom: 1px solid #ffffff;
+}
+
+.name {
+  color: white;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+.colorHello {
+  color:#5ad8fe;
+}
+.hoverOverObjects {
+  font-weight: 100;
+}
+
+.Projects {
+  height: 100%;
+  width: 100%;
+  background-color: #191919;
+}
+#WorkCompleted {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+.completedWorkColor {
+  color: #5ad8fe;
+  letter-spacing: 2px;
 }
