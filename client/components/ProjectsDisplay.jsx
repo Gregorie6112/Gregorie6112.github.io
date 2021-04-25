@@ -54,7 +54,7 @@ const ProjectsDisplay = () => (
         {projects[0].projectName}
       </div>
         <div className="ProjectsPicture">
-        <iframe src='/StockVisuals/index.html' frameborder='0' width='100%' height='100%'></iframe>
+        <iframe src='/StockVisuals/index.html' frameBorder='0' width='100%' height='100%'></iframe>
         </div>
     </div>
     <div className="ProjectHolder">
@@ -69,7 +69,7 @@ const ProjectsDisplay = () => (
         {projects[2].projectName}
       </div>
         <div className="ProjectsPicture">
-        <iframe src='/ChatVisuals/index.html' frameborder='0' width='100%' height='100%'></iframe>
+        <iframe src='/ChatVisuals/index.html' frameBorder='0' width='100%' height='100%'></iframe>
         </div>
     </div>
     <div className="ProjectHolder">
