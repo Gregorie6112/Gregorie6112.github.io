@@ -5,7 +5,7 @@ let projects = [
     projectName: "Stock Data Visualization",
     projectImage: "",
     projectCode: "",
-    projectWebsite: "",
+    projectWebsite: "https://chartify-gregorie-calderon.herokuapp.com/",
   },
   {
     projectName: "Database Optimization",
@@ -26,27 +26,7 @@ let projects = [
     projectWebsite: "",
   },
 ];
-// Returns boxes based on how many items are in projects array above
-// const ProjectsDisplay = () => (
-//   <div className="ProjectsDisplay">
-//     {projects.map((el, index) => (
-//       <div className="ProjectHolder">
-//         <div className="ProjectsTitle">
-//           HI
-//               <div className="ProjectsPicture">
-//           </div>
-//         </div>
-//       </div>
-//     ))};
-//   </div>
-// )
-// export default ProjectsDisplay;
 
-
-
-
-
-// Hardcoded boxes
 const ProjectsDisplay = () => (
   <div className="ProjectsDisplay">
     <div className="ProjectHolder">

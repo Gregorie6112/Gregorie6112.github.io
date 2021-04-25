@@ -123,6 +123,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 20px 35px rgb(0 0 0 / 14%);
 }
 .ProjectsTitle {
   height: fit-content;
@@ -143,6 +144,33 @@ a:hover {
 .ProjectsPicture:hover {
   filter: blur(1px);
 }
+/* .ProjectHolder:before {
+  content: '';
+  background-image: conic-gradient(
+    #04b0ee 20deg,
+    transparent 120deg
+  );
+  height: 150%;
+  width: 150%;
+  position: absolute;
+  animation: rotate 5s infinite forwards;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.ProjectHolder:after {
+  content: '';
+  height: 98.5%;
+  width: 98.8%;
+  position: absolute;
+  background-color: #191919;
+  border-radius: 5px;
+  top: 1%;
+  left: .5%;
+  color: #04b0ee;
+} */
 @keyframes slideRight {
   0% {
     opacity: 0%;
