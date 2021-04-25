@@ -3,7 +3,7 @@ import React from 'react';
 let projects = [
   {
     projectName: "Stock Data Visualization",
-    projectImage: "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+    projectImage: "",
     projectCode: "",
     projectWebsite: "",
   },
@@ -54,7 +54,7 @@ const ProjectsDisplay = () => (
         {projects[0].projectName}
       </div>
         <div className="ProjectsPicture">
-        <iframe src='https://my.spline.design/untitled-3076b0e7da0ef84a549d69713f64b129/' frameborder='0' width='100%' height='100%'></iframe>
+        <iframe src='/StockVisuals/index.html' frameborder='0' width='100%' height='100%'></iframe>
         </div>
     </div>
     <div className="ProjectHolder">
@@ -69,6 +69,7 @@ const ProjectsDisplay = () => (
         {projects[2].projectName}
       </div>
         <div className="ProjectsPicture">
+        <iframe src='/ChatVisuals/index.html' frameborder='0' width='100%' height='100%'></iframe>
         </div>
     </div>
     <div className="ProjectHolder">
