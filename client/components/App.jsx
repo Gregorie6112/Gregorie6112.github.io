@@ -3,6 +3,7 @@ import Navbar from './Navbar.jsx';
 import ThreeDObject from './3dObject.jsx';
 import Projects from './Project.jsx';
 import showScroll from './showScroll.jsx';
+import AboutMe from './AboutMe.jsx';
 
 class App extends React.Component {
   constructor() {
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Navbar />
         <ThreeDObject />
         <Projects />
+        <AboutMe />
       </>
     )
   }

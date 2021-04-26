@@ -74,7 +74,7 @@ a:hover {
 }
 
 .Projects {
-  height: 100%;
+  height: fit-content;
   width: 100%;
   background-color: #191919;
 }
@@ -95,35 +95,59 @@ a:hover {
   }
 }
 #WorkCompleted {
+  /* font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+  position: relative; */
   font-family: 'Raleway', sans-serif;
   display: flex;
   align-content: center;
   justify-content: center;
   width: fit-content;
   margin: 0 auto;
-  position: relative;
+  height: fit-content;
 }
 .completedWorkColor {
   color: #5ad8fe;
   letter-spacing: 2px;
+  height: fit-content;
 }
 .ProjectsDisplay {
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
+  width: 100%;
+  height: fit-content;
+  /* display: flex; */
+  flex-wrap: wrap;
 }
 .ProjectHolder {
-  width: 48%;
+  /* width: 48%;
   height: 50%;
   opacity: 0%;
   margin-top: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 20px 35px rgb(0 0 0 / 14%); */
+  width: 100%;
+  opacity: 0%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   box-shadow: 0 20px 35px rgb(0 0 0 / 14%);
+}
+img {
+  border-radius: 50px;
+  width: 25%;
+  height: 25%;
 }
 .ProjectsTitle {
   height: fit-content;
@@ -137,40 +161,12 @@ a:hover {
 }
 
 .ProjectsPicture {
-  width: 100%;
-  height: 100%;
-  transition: all 1s ease;
+  display: flex;
+  justify-content: flex-start;
 }
 .ProjectsPicture:hover {
   filter: blur(1px);
 }
-/* .ProjectHolder:before {
-  content: '';
-  background-image: conic-gradient(
-    #04b0ee 20deg,
-    transparent 120deg
-  );
-  height: 150%;
-  width: 150%;
-  position: absolute;
-  animation: rotate 5s infinite forwards;
-}
-@keyframes rotate {
-  100% {
-    transform: rotate(-360deg);
-  }
-}
-.ProjectHolder:after {
-  content: '';
-  height: 98.5%;
-  width: 98.8%;
-  position: absolute;
-  background-color: #191919;
-  border-radius: 5px;
-  top: 1%;
-  left: .5%;
-  color: #04b0ee;
-} */
 @keyframes slideRight {
   0% {
     opacity: 0%;
@@ -196,4 +192,10 @@ a:hover {
 }
 .rightIsVisible {
   animation: slideRight 2.5s forwards;
+}
+.AboutMeSection {
+  display: flex;
+  background: green;
+  width: 100%;
+  height: 100%;
 }
