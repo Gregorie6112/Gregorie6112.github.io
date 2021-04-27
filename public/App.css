@@ -95,13 +95,6 @@ a:hover {
   }
 }
 #WorkCompleted {
-  /* font-family: 'Raleway', sans-serif;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  width: fit-content;
-  margin: 0 auto;
-  position: relative; */
   font-family: 'Raleway', sans-serif;
   display: flex;
   align-content: center;
@@ -114,28 +107,15 @@ a:hover {
   color: #5ad8fe;
   letter-spacing: 2px;
   height: fit-content;
+  text-shadow: 0 1px 20px rgb(57 164 195);
 }
 .ProjectsDisplay {
-  /* width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly; */
   width: 100%;
   height: fit-content;
   /* display: flex; */
   flex-wrap: wrap;
 }
 .ProjectHolder {
-  /* width: 48%;
-  height: 50%;
-  opacity: 0%;
-  margin-top: 1%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 20px 35px rgb(0 0 0 / 14%); */
   width: 100%;
   opacity: 0%;
   margin-top: 1%;
@@ -146,8 +126,8 @@ a:hover {
 }
 img {
   border-radius: 50px;
-  width: 25%;
-  height: 25%;
+  width: 100%;
+  height: 75%;
 }
 .ProjectsTitle {
   height: fit-content;
@@ -159,10 +139,14 @@ img {
   padding: 10px;
   margin-bottom: 0.5rem;
 }
-
-.ProjectsPicture {
+.ProjectContentHolder {
+  padding-left: 5%;
+  width: 95%;
   display: flex;
-  justify-content: flex-start;
+}
+.ProjectInformationHolder {
+  padding-left: 2%;
+  width: 50%;
 }
 .ProjectsPicture:hover {
   filter: blur(1px);
@@ -195,7 +179,100 @@ img {
 }
 .AboutMeSection {
   display: flex;
-  background: green;
   width: 100%;
   height: 100%;
+  justify-content: center;
+}
+.AboutMeText {
+  color: #5ad8fe;
+  letter-spacing: 2px;
+  height: fit-content;
+  text-shadow: 0 1px 20px rgb(57 164 195);
+}
+.tilt {
+  height: fit-content;
+  width: 600px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  background: none !important;
+  border-radius: 0px !important;
+  color: none !important;
+  font-size: 0px !important;
+  line-height: 0 !important;
+  box-shadow: none !important;
+  will-change: transform;
+  transform-style: preserve-3d;
+  transform: perspective(1000px) rotateX(
+0deg
+) rotateY(
+0deg
+) scale3d(1, 1, 1);
+}
+.button{
+  position: absolute;
+  transform: translateZ(100px);
+  top: 25%;
+  left: 40%;
+  border: 0px;
+  border-radius: 4px;
+  font-size: .8rem;
+  padding: 10px;
+  background: #212020a1;
+  color: #50b5d5;
+}
+.textForProjects {
+  color: white;
+  font-family: 'Raleway';
+  margin: 0px;
+  margin-bottom: 3%;
+  letter-spacing: .5px;
+}
+.textForProjectsParagraph {
+  color: #b5b5b5;
+  font-family: 'Raleway';
+  letter-spacing: 2px;
+  line-height: 2;
+  margin-right: 3%;
+}
+.textForProjectsTitle {
+  color: #5ad7fd;
+  font-family: 'Raleway';
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 3%;
+  letter-spacing: .5px;
+}
+.button {
+  position: absolute;
+  top: 10%;
+  font-family: 'Raleway';
+  background: #1d1d1dba;
+  color: #5ad7fdf2;
+  border: 0px;
+  border-radius: 15px;
+  font-size: 1rem;
+  padding: 1.5%;
+  transform: translateZ(100px);
+}
+
+.viewCodeOrLive {
+  height: fit-content;
+  font-size: 1rem;
+  color: #5ad7fd;
+  font-family: 'Raleway', sans-serif;
+  background: #212020;
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #5ad7fd2b;
+  margin-right: 1%;
+  box-shadow: 0 1px 20px rgb(62 130 150 / 27%);
+}
+.viewCodeOrLive:hover {
+  color: white;
+  border: 1px solid #ffffff33;
+  box-shadow: 0 1px 20px rgb(255 255 255 / 27%);
+}
+.atagForButton:hover {
+  border-bottom: 0px solid;
 }
