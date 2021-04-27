@@ -181,7 +181,12 @@ img {
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: center;
+  margin-top: 1%;
+}
+.AboutMeHeader {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
 }
 .AboutMeText {
   color: #5ad8fe;
