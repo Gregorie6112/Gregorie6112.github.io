@@ -12,10 +12,13 @@ class App extends React.Component {
   componentDidMount() {
     let projects = document.getElementsByClassName('ProjectHolder');
     let title = document.getElementsByClassName('WorkCompleted');
-    let aboutMe= document.getElementsByClassName('AboutMePicture');
+    let aboutMe = document.getElementsByClassName('AboutMePicture');
+    let aboutMeText = document.getElementsByClassName('AboutMeInformationText');
+    let arr4 = [...aboutMeText];
     let arr3 = [...aboutMe];
     let arr2 = [...title];
     let arr = [...projects];
+    showScroll(arr4);
     showScroll(arr3);
     showScroll(arr2);
     showScroll(arr);
