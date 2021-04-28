@@ -247,6 +247,17 @@ img {
   letter-spacing: 1.7px;
   margin-right: 5%;
 }
+.AboutMeSkills {
+  width: 94%;
+  color: #5ad7fd;
+  margin-left: 6%;
+  font-family: 'Raleway';
+  margin-top: 1%;
+  text-align: center;
+}
+.icons {
+  margin-right: 1%;
+}
 .tilt {
   height: fit-content;
   width: 600px !important;
