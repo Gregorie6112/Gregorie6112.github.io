@@ -4,6 +4,7 @@ import ThreeDObject from './3dObject.jsx';
 import Projects from './Project.jsx';
 import showScroll from './showScroll.jsx';
 import AboutMe from './AboutMe.jsx';
+import ContactMe from './ContactMe.jsx';
 
 class App extends React.Component {
   constructor() {
@@ -33,6 +34,7 @@ class App extends React.Component {
         <ThreeDObject />
         <Projects />
         <AboutMe />
+        <ContactMe />
       </>
     )
   }
