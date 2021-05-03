@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => (
   <>
   <div className="navbar2">
-    Currently Exploring New Roles!
+     Open To New Roles!
   </div>
   <div className="navbar">
     <a href="#Home">Home</a>

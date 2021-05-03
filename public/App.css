@@ -70,16 +70,17 @@ a {
 }
 .navbar2 {
   letter-spacing: 1.5px;
-  animation: fadeIn 2s ease, colorChange 3s infinite;
+  /* animation: fadeIn 2s ease, colorChange 3s infinite; */
   color: #000000;
   height: fit-content;
   z-index: 1000;
   top: 0px;
   width: 100%;
-  background: #5ad7fd;
+  background: #fde15a;
   position: fixed;
   text-align: center;
   font-family: 'Raleway';
+  font-weight: 800;
 }
 a:hover {
   color: white;
@@ -345,8 +346,9 @@ img {
   margin-right: 3%;
 }
 .textForProjectsTitle {
-  color: #5ad7fd;
+  color: white;
   font-family: 'Raleway';
+  font-weight: 800;
   text-align: center;
   margin: 0px;
   margin-bottom: 3%;
